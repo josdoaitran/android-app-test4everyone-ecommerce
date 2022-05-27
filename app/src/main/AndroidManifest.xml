@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dhruva.shopping">
+    package="com.testing4everyone.shopping">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -14,21 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ekart"
         tools:replace="android:theme">
-        <activity android:name="com.dhruva.shopping.HomeActivity"
+        <activity android:name="com.testing4everyone.shopping.HomeActivity"
 
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.dhruva.shopping.SettinsActivity" />
-        <activity android:name="com.dhruva.shopping.SearchProductsActivity" />
-        <activity android:name="com.dhruva.shopping.RegisterActivity" />
-        <activity android:name="com.dhruva.shopping.ProductDetailsActivity" />
-        <activity android:name="com.dhruva.shopping.LoginActivity" />
-        <activity android:name="com.dhruva.shopping.ConfirmFinalOrderActivity" />
-        <activity android:name="com.dhruva.shopping.CartActivity" />
-        <activity android:name="com.dhruva.shopping.AdminUserProductsActivity" />
-        <activity android:name="com.dhruva.shopping.AdminNewOrdersActivity" />
-        <activity android:name="com.dhruva.shopping.AdminCategoryActivity" />
-        <activity android:name="com.dhruva.shopping.AdminAddNewProductActivity" />
-        <activity android:name="com.dhruva.shopping.MainActivity">
+        <activity android:name="com.testing4everyone.shopping.SettinsActivity" />
+        <activity android:name="com.testing4everyone.shopping.SearchProductsActivity" />
+        <activity android:name="com.testing4everyone.shopping.RegisterActivity" />
+        <activity android:name="com.testing4everyone.shopping.ProductDetailsActivity" />
+        <activity android:name="com.testing4everyone.shopping.LoginActivity" />
+        <activity android:name="com.testing4everyone.shopping.ConfirmFinalOrderActivity" />
+        <activity android:name="com.testing4everyone.shopping.CartActivity" />
+        <activity android:name="com.testing4everyone.shopping.AdminUserProductsActivity" />
+        <activity android:name="com.testing4everyone.shopping.AdminNewOrdersActivity" />
+        <activity android:name="com.testing4everyone.shopping.AdminCategoryActivity" />
+        <activity android:name="com.testing4everyone.shopping.AdminAddNewProductActivity" />
+        <activity android:name="com.testing4everyone.shopping.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
